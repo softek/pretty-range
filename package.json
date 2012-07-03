@@ -1,0 +1,29 @@
+{
+  "name": "pretty-range",
+  "description": "Node module to prettify arrays of integers into ranges.",
+  "tags": [
+    "number",
+    "prettify",
+    "format numbers",
+    "format arrays"
+  ],
+  "version": "0.0.1",
+  "author": "Blake VanLandingham <blakevanlan@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:softek/pretty-range.git"
+  },
+  "devDependencies": {
+    "should": "0.6.3",
+    "mocha": "1.2.2"
+  },
+  "engines": [
+    "node >= 0.4.7"
+  ],
+  "main": "./main",
+  "scripts": {
+    "test": "mocha tests.js --reporter spec"
+  },
+  "dependencies": {},
+  "optionalDependencies": {}
+}

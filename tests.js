@@ -1,5 +1,5 @@
 require("mocha");
-var prettyRange = require("./main");
+var prettyRange = require("./index");
 var should = require("should");
 
 describe("prettyRange", function() {

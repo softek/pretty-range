@@ -7,7 +7,7 @@
     "format numbers",
     "format arrays"
   ],
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Blake VanLandingham <blakevanlan@gmail.com>",
   "repository": {
     "type": "git",
@@ -20,9 +20,9 @@
   "engines": [
     "node >= 0.4.7"
   ],
-  "main": "./main",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha tests.js --reporter spec"
+    "test": "./node_modules/.bin/mocha tests.js --reporter spec"
   },
   "dependencies": {},
   "optionalDependencies": {}

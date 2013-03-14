@@ -25,6 +25,6 @@ module.exports = function(input) {
 };
 
 module.exports.middleware = function(request, response, next) {
-   response.local("prettyRange", module.exports);
+   response.locals.prettyRange = module.exports;
    next();
 };
